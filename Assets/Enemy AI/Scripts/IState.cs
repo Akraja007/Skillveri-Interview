@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace Skillveri
 {
-   interface ISate
+   public interface IState
    {
         public void OnEnter();
         public void OnUpdate();
-        public void OnExist();
+        public void OnExit();
    }
 }
